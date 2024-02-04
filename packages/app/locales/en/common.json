@@ -1,4 +1,12 @@
 {
     "header": "Writex.io starter.",
-    "slogan": "Writex.io – the full potential of the writing journey at your fingertips, experience a truly immersive writing experience, effortless publishing, and detailed collection statistics to help you make your mark as an author."
+    "slogan": "Writex.io – the full potential of the writing journey at your fingertips, experience a truly immersive writing experience, effortless publishing, and detailed collection statistics to help you make your mark as an author.",
+    "buttonChangeTheme": "Change theme",
+    "links": {
+        "regular": "Regular link",
+        "moti": "Moti link"
+    },
+    "loading": "Loading...",
+    "logicDescription": "All logic is executed in sagas. On click of the button, a saga is dispatched and the state is updated.",
+    "pluginsDescription": "This is a dynamically loaded plugin. It allow lazy loading of components, reducers and sagas for dynamically injection."
 }

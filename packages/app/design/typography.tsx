@@ -8,7 +8,7 @@ export const Text = styled(NativeText);
 /**
  * You can use this pattern to create components with default styles
  */
-export const P = styled(NativeText, 'text-base text-black my-4');
+export const P = styled(NativeText, 'text-base text-black my-2');
 
 /**
  * Components can have defaultProps and styles
