@@ -1,10 +1,10 @@
-import React, { lazy, Suspense, useEffect, useState } from 'react';
+import { lazy, Suspense, useEffect, useState } from 'react';
 import { useDispatch, useSelector, useStore } from 'react-redux';
 import { useTranslation } from 'react-i18next';
 import { MotiLink } from 'solito/moti';
 import { Pressable } from 'react-native';
 
-import { A, H1, P, Text, TextLink } from 'app/design/typography';
+import { H1, P, Text, TextLink } from 'app/design/typography';
 import { Row } from 'app/design/layout';
 import { View } from 'app/design/view';
 import ErrorBoundary from 'app/core/components/error-boundary';

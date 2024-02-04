@@ -16,6 +16,7 @@ module.exports = {
     },
     plugins: [
         'react',
+        'unused-imports',
     ],
     rules: {
         'unused-imports/no-unused-imports': 'warn',
@@ -57,6 +58,8 @@ module.exports = {
         'import/extensions': [
             '.js',
             '.jsx',
+            '.ts',
+            '.tsx',
         ],
     },
 };
