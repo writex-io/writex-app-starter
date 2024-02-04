@@ -48,20 +48,10 @@ module.exports = {
         'import/resolver': {
             alias: {
                 map: [
-                    ['@app', './app/src'],
-                    ['@editor', './editor/src'],
-                    ['@publishers', './publishers/src'],
-                    ['@publisher', './publisher/src'],
-                    ['@core', './core/src'],
-                    ['@translations', './translations'],
-                    ['@auth', './auth/src'],
-                    ['@account', './pricing/src'],
-                    ['@widgets', './widgets/src'],
-                    ['@reader', './reader/src'],
-                    ['@mybooks', './mybooks/src'],
-                    ['@subscriptions', './subscriptions/src'],
+                    ['app', './packages/app'],
+                    ['plugins', './packages/plugins'],
                 ],
-                extensions: ['.js', '.jsx'],
+                extensions: ['.js', '.jsx', '.ts', '.tsx'],
             },
         },
         'import/extensions': [

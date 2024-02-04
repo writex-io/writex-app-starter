@@ -4,6 +4,7 @@
     "noUncheckedIndexedAccess": true,
     "paths": {
       "app/*": ["./packages/app/*"],
+      "plugins/*": ["./packages/plugins/*"],
     },
     "jsx": "react-jsx"
   },
