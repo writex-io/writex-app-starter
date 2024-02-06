@@ -48,12 +48,12 @@ export function HomeScreen() {
             <View className="max-w-xl mb-1">
                 <P className="block dark:text-white">{t('logicDescription')}</P>
             </View>
-            <View className="max-w-xl mb-4">
+            <View className="px-6 py-2 font-medium tracking-wide transition-colors duration-300 transform bg-blue-600 !rounded-lg hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80 select-none">
                 <Pressable onPress={countOnClick}>
-                    <Text className="px-6 py-2 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 !rounded-lg hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80 select-none">Click me [{count}]</Text>
+                    <Text className="text-white capitalize">Click me [{count}]</Text>
                 </Pressable>
             </View>
-            <View className="max-w-xl mb-1">
+            <View className="max-w-xl mb-1 mt-3">
                 <P className="block dark:text-white">{t('pluginsDescription')}</P>
             </View>
             <View className="max-w-xl mb-4">
@@ -72,9 +72,9 @@ export function HomeScreen() {
             </View>
 
             <Row className="space-x-8">
-                <TextLink href="/user/fernando">{t('links.regular')}</TextLink>
+                <TextLink href="/user/max">{t('links.regular')}</TextLink>
                 <MotiLink
-                    href="/user/fernando"
+                    href="/user/max"
                     animate={({ hovered, pressed }) => {
                         'worklet';
 

@@ -7,6 +7,6 @@
         "moti": "Moti link"
     },
     "loading": "Loading...",
-    "logicDescription": "All logic is executed in sagas. On click of the button, a saga is dispatched and the state is updated.",
-    "pluginsDescription": "This is a dynamically loaded plugin. It allow lazy loading of components, reducers and sagas for dynamically injection."
+    "logicDescription": "All logic is executed within sagas. Upon clicking the button, an action is dispatched. The saga, which is listening for this action, updates the store by dispatching another action. This process demonstrates the asynchronous capabilities of sagas and the application.",
+    "pluginsDescription": "This is a dynamically loaded plugin that enables the lazy loading of components, reducers, and sagas for dynamic injection."
 }
