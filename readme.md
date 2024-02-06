@@ -100,6 +100,9 @@ Take a look at the [`packages/app/design`](https://github.com/writex-io/writex-a
     - `design` your app's design system. organize this as you please.
       - `typography` (components for all the different text styles)
       - `layout` (components for layouts)
+    - `locales` (translations)
+    - `logic` (static sagas, reducers, and actions that are shared across features and applicable to the entire app)
+  - `plugins` (modules that contains dynamically loaded components, and also dynamically loaded sagas and reducers for a runtime injection of new features)
 
 You can add other folders inside of `packages/` if you know what you're doing and have a good reason to.
 

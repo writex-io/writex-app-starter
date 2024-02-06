@@ -8,7 +8,7 @@ import { H1, P, Text, TextLink } from 'app/design/typography';
 import { Row } from 'app/design/layout';
 import { View } from 'app/design/view';
 import ErrorBoundary from 'app/core/components/error-boundary';
-import { ErrorOccurred } from 'app/core/components/paid-functionality';
+import { ErrorOccurred } from 'app/core/components/error-view';
 import { incrementRequestAction, countSelector } from 'app/logic/empty/reducers/empty';
 
 // This function is used to lazy load the theme module

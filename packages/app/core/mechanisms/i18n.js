@@ -8,7 +8,7 @@ i18next
     .use(initReactI18next)
     .init({
         compatibilityJSON: 'v3',
-        interpolation: {escapeValue: false}, // React already does escaping
+        interpolation: { escapeValue: false }, // React already does escaping
         fallbackLng: 'en',
         defaultNS: 'common',
         debug: false,
